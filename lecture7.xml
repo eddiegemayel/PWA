@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<films>
+	<movie>
+		<name>300</name>
+		<rating>R</rating>
+		<main_actor>Gerard Butler</main_actor>
+		<score>10 out of 10</score>
+	</movie>
+	<movie>
+		<name>The Matrix</name>
+		<rating>R</rating>
+		<main_actor>Keanu Reeves</main_actor>
+		<score>10 out of 10</score>
+	</movie>
+</films>
