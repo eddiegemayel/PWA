@@ -2,12 +2,31 @@
 <rss version="2.0">
 <channel>
 	<title>Movie Reviews</title>
-	<link>link here</link>
+	<link>file:///Users/eddiegemayel/WDF/rss_link.html</link>
 	<description>Reviews about movies</description>
 
 	<item>
-		<title>Movie reviews</title>
-		
+		<title>300 Review</title>
+		<link>file:///Users/eddiegemayel/WDF/rss_link.html</link>
+		<description>300 movie review</description>
+	</item>
+	
+	<item>
+		<title>The Matrix Review</title>
+		<link>file:///Users/eddiegemayel/WDF/rss_link.html</link>
+		<description>Matrix movie review</description>
+	</item>
+	
+	<item>
+		<title>Gladiator Movie review </title>
+		<link>file:///Users/eddiegemayel/WDF/rss_link.html</link>
+		<description>Gladiator movie review</description>
+	</item>
+	
+	<item>
+		<title>Man of Steel movie review</title>
+		<link>file:///Users/eddiegemayel/WDF/rss_link.html</link>
+		<description>man of steel movie review</description>
 	</item>
 	
 
