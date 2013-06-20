@@ -1,29 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<films>
+<rss version="2.0">
+<channel>
+	<title>Movie Reviews</title>
+	<link>link here</link>
+	<description>Reviews about movies</description>
 
-	<movie>
-		<name>300</name>
-		<rating>R</rating>
-		<main_actor>Gerard Butler</main_actor>
-		<score>10 out of 10</score>
-	</movie>
+	<item>
+		<title>Movie reviews</title>
+		
+	</item>
 	
-	<movie>
-		<name>The Matrix</name>
-		<rating>R</rating>
-		<main_actor>Keanu Reeves</main_actor>
-		<score>10 out of 10</score>
-	</movie>
-	
-	<movie>
-		<name>Gladiator</name>
-		<rating>R</rating>
-		<main_actor>Russell Crowe</main_actor>
-		<score>8 out of 10</score>
-	</movie>
-	
-	<movie>
-		<name></name>
-	</movie>
-	
-</films>
+
+</channel>
+</rss>
