@@ -8,43 +8,64 @@
 		<h1>Please fill out the following form</h1>
 		
 		<form action = "processform.php" method = "post">
-			<p><input type="radio" name="gender" value="male" checked="checked">Male</p>
-			<p><input type="radio" name="gender" value="female">Female</p>
+			<fieldset>
+				<legend>Select a gender</legend>
+				<p><input type="radio" name="gender" value="male" checked="checked" id="male">Male</p>
+				<label for="male"></label>
+				<p><input type="radio" name="gender" value="female" id="female">Female</p>
+				<label for="female"></label>
+			</fieldset>
 		</form>
 		
 		<form>
-			<h2>Enter your name here</h2>
-			<p><input type="text" name="Enter name" /></p>
+			<fieldset>
+				<legend>Enter first and last name</legend>
+				<h2>Enter your name here</h2>
+				<p><input type="text" name="Enter name" title="Enter Name"/></p>
+			</fieldset>
 		</form>
 		
 		<form>
-			<h2>Check your favorite sport</h2>
-			<p><input type="checkbox" name="sports" value="soccer"/>Soccer</p>
-			<p><input type="checkbox" name="sports" value="football"/>Football</p>
-			<p><input type="checkbox" name="sports" value="combat"/>Combat Sports</p>
+			<fieldset>
+				<legend>Favorite sports</legend>
+				<h2>Check your favorite sport</h2>
+				<p><input type="checkbox" name="sports" title="soccer" value="soccer" id="soccer"/>Soccer</p>
+				<label for="soccer"></label>
+				<p><input type="checkbox" name="sports" title="football" value="football" id="football"/>Football</p>
+				<label for="football"></label>
+				<p><input type="checkbox" name="sports" title=" combat" value="combat" id="combat"/>Combat Sports</p>
+				<label for="combat"></label>
+			</fieldset>
 		</form>
 		
 		<form>
-			<h2>Hit this submit button!</h2>
-			<p><input type="submit" name="send" value="Send!"/></p>
+			<fieldset>
+				<legend>Submit button</legend>
+				<h2>Hit this submit button!</h2>
+				<p><input type="submit" name="send" value="Send!"/></p>
+			</fieldset>
 		</form>
 		
+		<fieldset>
+			<legend>Enter your feedback here</legend>
+			<h2>Your feedback here!</h2>
+			<p>
+				<textarea name="comments" title="Feedback" rows="5" cols="40">Your Feedback</textarea>
+			</p>
+			</fieldset>
 		
-		<h2>Your feedback here!</h2>
-		<p>
-			<textarea name="comments" rows="5" cols="40">Your Feedback</textarea>
+		<fieldset>
+			<legend>Choose your vehicle</legend>
+			<h2>Select your vehicle!</h2>
+			<p>
+				<select name="cars" title="cars">
+					<option id="sedan">Sedan</option><label for="sedan">Sedan</label>
+					<option>Truck</option>
+					<option>Coupe</option>
+					<option>Van</option>
+				</select>
 		</p>
-		
-		
-		<h2>Select your vehicle!</h2>
-		<p>
-			<select name="cars">
-				<option>Sedan</option>
-				<option>Truck</option>
-				<option>Coupe</option>
-				<option>Van</option>
-			</select>
-		</p>
+		</fieldset>
 		
 	</body>
 </html>
