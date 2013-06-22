@@ -1,10 +1,59 @@
 <!DOCTYPE html>
-<html lang="en"
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<title>accessibility check</title>
 	</head>
 	<body>
+		<header>
+			<h1>Accessibility Check</h1>
+		</header>
+		<nav>
+			<a href="#site_one">Site 1</a>
+			<a href="#site_two">Site 2</a>
+			<a href="#site_three">Site 3</a>
+			<a href="#site_four">Site 4</a>
+		</nav>
+		<div id="site_one">
+			<h2>1. Youtube</h2>
+			<p>URL: <a href="http://www.youtube.com/" title="youtube link">Click Here</a></p>
+			<p>This site contains user uploaded content such as videos.</p>
+			<h3>Screenshot</h3>
+			<p><img src="images/youtube.jpg" alt="screenshot one" width=720 height=367 title="screenshot of youtube"/></p>
+			<p>Youtube failed both validations. What they should have added were more alts and titles to some image elements on the home page.</p>
+		</div>
+		<!-- /First Site -->
 		
+		<div id="site_two">
+			<h2>2. Yahoo!</h2>
+			<p>URL: <a href="http://www.yahoo.com/" title=" yahoo link">Click Here</a></p>
+			<p>Yahoo is a premiere search engine and news website.</p>
+			<h3>Screenshot</h3>
+			<p><img src="images/yahoo.jpg" alt="screenshot two" width=720 height=391 title="screenshot of yahoo"/></p>
+			<p>Yahoo had many small issues with their site. They were mostly missing alt tags on their images and videos, which can easily be fixed.</p>
+		</div>
+		<!-- /Second Site -->
+		
+		<div id="site_three">
+			<h2>3. Google</h2>
+			<p>URL: <a href="https://www.google.com/" title="google link">Click Here</a></p>
+			<p>Google is a search engine used for locating pages on the web.</p>
+			<h3>Screenshot</h3>
+			<p><img src="images/Google.jpg" alt="screenshot three" width=720 height=391 title="screenshot of google"/></p>
+			<p>Google was also missing a few alt attributes, and according to the validator, was missing a color contrast evaluator. </p>
+		</div>
+		<!-- /Third Site -->
+		
+		<div id="site_four">
+			<h2>4. Wikipedia</h2>
+			<p>URL: <a href="http://www.wikipedia.org/" title="wiki link">Click Here.</a></p>
+			<p>Wikipedia contains insane amounts of information on every subject.</p>
+			<h3>Screenshot</h3>
+			<p><img src="images/wiki.jpg" alt="screenshot four" width=720 height=391 title="screenshot of Dodge Dart"/></p>
+			<p>Did they pass section 508? According to the validators, Wiki was missing strong and em tags, and should replace all their bold tags with them.</p> 
+		</div>
+		<!-- /Fourth Site -->
+		
+		<footer> Copyright &copy; Eddie Gemayel 2013</footer>
 	</body>
 </html>
