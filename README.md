@@ -1,4 +1,0 @@
-WDF
-===
-
-web design fundamentals
