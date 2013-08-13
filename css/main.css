@@ -2,3 +2,15 @@ body {
 	width: 700px;
 	margin: 0 auto;
 }
+
+ul{
+	border: 1px dashed white;
+	list-style-type:none;
+	overflow: hidden;
+}
+
+li{
+	float: left;
+	margin-left:19px
+}
+
