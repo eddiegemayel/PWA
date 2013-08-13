@@ -59,8 +59,8 @@ h2{
 
 .logo{
 	float:left;
-	background: white;
-	width: 500px;
+	border: 10px solid white;
+	width: 350px;
 }
 
 aside{
@@ -71,12 +71,19 @@ article{
 	overflow:hidden;
 }
 
-p{
+div p{
 	font-family: "Helvetica Neue";
 	line-height: 1.2;
+	font-size: 19px;
 }
 
-
+div{
+	overflow: hidden;
+	padding: 10px;
+	background-color: white;
+	height: 295px;
+	
+}
 
 
 
