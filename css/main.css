@@ -6,10 +6,10 @@ body {
 }
 
 .gallery{
-	border: 1px dashed black;
+	border: 5px solid black;
 	list-style-type:none;
 	overflow: hidden;
-	padding: 5px;
+	padding: 10px;
 	margin: 0 auto;
 }
 
@@ -49,6 +49,8 @@ h1{
 
 .logo{
 	float:left;
+	background: white;
+	width: 500px;
 }
 
 aside{
