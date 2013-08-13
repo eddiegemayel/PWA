@@ -13,10 +13,15 @@ body {
 	margin: 0 auto;
 	background: #91320d;
 	border-radius: 10px;
+	
 }
 
-section{
+
+
+
+section li{
 	float:left;
+	padding: 15px;
 }
 
 aside{
