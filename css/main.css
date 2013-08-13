@@ -27,10 +27,14 @@ section li{
 
 
 section a{
-	border: 5px solid white;
+	border: 5px solid black;
 	display: block;
+	outline: 0;
 }
 
+section a:hover{
+	border-color: white;
+}
 
 
 
