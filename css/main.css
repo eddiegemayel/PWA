@@ -95,6 +95,11 @@ h2{
 
 aside{
 	clear:both;
+	-moz-column-count: 4;
+	-moz-column-gap: 20px;
+	font-family: "Helvetica Neue";
+	line-height: 1.2;
+	font-size: 14px;
 }
 
 
