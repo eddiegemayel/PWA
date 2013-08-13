@@ -11,6 +11,16 @@ body {
 	overflow: hidden;
 	padding: 10px;
 	margin: 0 auto;
+	background: #91320d;
+	border-radius: 10px;
+}
+
+section{
+	float:left;
+}
+
+aside{
+	clear:both;
 }
 
 
@@ -63,9 +73,6 @@ h2{
 	width: 350px;
 }
 
-aside{
-	clear:both;
-}
 
 article{
 	overflow:hidden;
