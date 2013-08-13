@@ -5,6 +5,8 @@ body {
 	
 }
 
+/* Gallery elements -------------------------------------------*/
+
 .gallery{
 	border: 5px solid black;
 	list-style-type:none;
@@ -16,18 +18,24 @@ body {
 	
 }
 
-
-
-
 section li{
 	float:left;
 	padding: 15px;
+	overflow: hidden;
+	margin-left: 24px;
 }
 
-aside{
-	clear:both;
+
+section a{
+	border: 5px solid white;
+	display: block;
 }
 
+
+
+
+
+/* nav elements ---------------------------------------------*/
 
 nav ul {
 	width: 300px;
@@ -79,6 +87,11 @@ h2{
 }
 
 
+aside{
+	clear:both;
+}
+
+
 article{
 	overflow:hidden;
 }
@@ -99,7 +112,7 @@ div{
 
 
 
-
+/* CSS3 button code */
 
 .button {
 	display: inline-block;
