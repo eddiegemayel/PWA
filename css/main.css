@@ -1,16 +1,56 @@
 body {
 	width: 700px;
 	margin: 0 auto;
+	background: grey;
+	
 }
 
-ul{
-	border: 1px dashed white;
+.gallery{
+	border: 1px dashed black;
 	list-style-type:none;
 	overflow: hidden;
+	padding: 5px;
+	margin: 0 auto;
 }
 
-li{
+
+nav ul {
+	width: 300px;
+	margin: 0 auto;
+	background: #999;
+	list-style-type:none;
+	padding: 0;
+	overflow: hidden;
+}
+nav li{
+	width: 100px;
+	background: silver;
 	float: left;
-	margin-left:19px
+}
+nav a{
+	text-decoration: none;
+	background: grey;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #91320d;
+}
+nav a:hover {
+	color:#fff;
+	background:#91320d;
 }
 
+h1{
+	font-family:"Brush Script Std";
+	font-size: 40px;
+}
+
+
+.logo{
+	float:left;
+}
+
+aside{
+	clear:both;
+}
