@@ -70,6 +70,10 @@ nav a:hover {
 	background:#91320d;
 }
 
+
+
+
+
 h1{
 	font-family:"Brush Script Std";
 	font-size: 40px;
@@ -107,7 +111,18 @@ aside{
 
 article{
 	overflow:hidden;
+	font-family: "Helvetica Neue";
+	line-height: 1.2;
+	font-size: 14px;
 }
+
+footer{
+font-family: "Helvetica Neue";
+	line-height: 1.2;
+	font-size: 14px;
+	
+}
+
 
 div p{
 	font-family: "Helvetica Neue";
