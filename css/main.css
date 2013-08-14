@@ -1,7 +1,7 @@
 body {
 	width: 800px;
 	margin: 0 auto;
-	background: grey;
+	background-color: grey;
 	
 }
 
@@ -12,24 +12,22 @@ body {
 	list-style-type:none;
 	overflow: hidden;
 	padding: 10px;
-	margin: 0 auto;
 	background: #91320d;
-	border-radius: 10px;
-	
+	border-radius: 10px;	
 }
 
 section li{
 	float:left;
 	padding: 15px;
 	overflow: hidden;
-	margin-left: 24px;
+	margin-left: 37px;
 }
 
 
 section a{
 	border: 5px solid black;
 	display: block;
-	outline: 0;
+	outline: 0;   
 }
 
 section a:hover{
@@ -58,12 +56,13 @@ nav li{
 
 nav a{
 	text-decoration: none;
-	background: grey;
+	background-color: grey;
 	display: block;
 	height: 30px;
 	line-height: 30px;
 	text-align: center;
 	color: #91320d;
+	font-size: 20px;
 }
 nav a:hover {
 	color:#fff;
@@ -100,12 +99,12 @@ h2{
 aside{
 	clear:both;
 	-moz-column-count: 4;
-	-moz-column-gap: 20px;
+	-moz-column-gap: 25px;
 	font-family: "Helvetica Neue";
 	line-height: 1.2;
 	font-size: 14px;
-	padding: 5px;
-	margin-top:20px;
+	/*margin-top:20px;*/
+	height: 200px;
 }
 
 
@@ -117,13 +116,21 @@ article{
 }
 
 footer{
-font-family: "Helvetica Neue";
+	font-family: "Helvetica Neue";
 	line-height: 1.2;
 	font-size: 14px;
-	
+	color: grey;
+	background-color: black;
+	padding: 4px;
+	border-radius: 10px 10px 0px 0px;
+}
+
+footer p {
+	text-align: center;
 }
 
 
+/*Call to Action---------------------------------------------------------- */
 div p{
 	font-family: "Helvetica Neue";
 	line-height: 1.2;
