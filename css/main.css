@@ -1,5 +1,5 @@
 body {
-	width: 700px;
+	width: 800px;
 	margin: 0 auto;
 	background: grey;
 	
@@ -76,7 +76,7 @@ nav a:hover {
 
 h1{
 	font-family:"Brush Script Std";
-	font-size: 40px;
+	font-size: 56px;
 	color:white;
 	text-decoration: none;
 	text-shadow: 2px 2px 2px black;
@@ -127,7 +127,7 @@ font-family: "Helvetica Neue";
 div p{
 	font-family: "Helvetica Neue";
 	line-height: 1.2;
-	font-size: 19px;
+	font-size: 24px;
 }
 
 div{
@@ -140,7 +140,7 @@ div{
 
 
 
-/* CSS3 button code */
+/* CSS3 button code ------------------------------------------------------*/
 
 .button {
 	display: inline-block;
@@ -148,7 +148,7 @@ div{
 	cursor: pointer;
 	text-align: center;
 	text-decoration: none;
-	font: 14px/100% Arial, Helvetica, sans-serif;
+	font: 23px/100% Arial, Helvetica, sans-serif;
 	padding: .5em 2em .55em;
 	text-shadow: 0 1px 1px rgba(0,0,0,.3);
 	-webkit-border-radius: .5em; 
@@ -167,7 +167,7 @@ div{
 }
 
 
-/* orange */
+/* orange -------------------------------------------------------------------*/
 .orange {
 	color: #fef4e9;
 	border: solid 1px #da7c0c;
