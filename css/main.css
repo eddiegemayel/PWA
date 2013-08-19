@@ -2,6 +2,7 @@ body {
 	width: 800px;
 	margin: 0 auto;
 	background-color: grey;
+	font: 100%;
 	
 }
 
@@ -62,14 +63,13 @@ nav a{
 	line-height: 30px;
 	text-align: center;
 	color: #91320d;
-	font-size: 20px;
+	font-size: 1.25em; /*20px*/
 }
 nav a:hover {
 	color:#fff;
 	background:#91320d;
 }
-
-
+/*nav end ---------------------------------------------------------------------------*/
 
 
 
@@ -127,6 +127,10 @@ footer{
 
 footer p {
 	text-align: center;
+}
+
+img{
+	max-width: 100%;
 }
 
 
@@ -199,12 +203,21 @@ div{
 
 
 
+/*media queries--------------------------------------------------------------------*/
 
+/*Tablet*/
+ @media screen and (min-width: 768px) and (max-width: 959px) {
+ }
 
+/*Mobile*/
 
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
 
+/* mobile portrait*/
 
-
+@media only screen and(max-width: 479px){
+}
 
 
 
