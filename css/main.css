@@ -1,5 +1,5 @@
 body {
-	width: 800px;
+	max-width: 800px;
 	margin: 0 auto;
 	background-color: grey;
 	font: 100%;
@@ -12,16 +12,16 @@ body {
 	border: 5px solid black;
 	list-style-type:none;
 	overflow: hidden;
-	padding: 10px;
+	padding: 1.25%; /*10px*/
 	background: #91320d;
 	border-radius: 10px;	
 }
 
 section li{
 	float:left;
-	padding: 15px;
+	padding: 1.875%; /*15px*/
 	overflow: hidden;
-	margin-left: 37px;
+	margin-left: 4.625%; /*37px*/
 }
 
 
@@ -41,7 +41,7 @@ section a:hover{
 /* nav elements ---------------------------------------------*/
 
 nav ul {
-	width: 300px;
+	width: 37.5%;     /*300px*/
 	margin: 0 auto;
 	background: #999;
 	list-style-type:none;
@@ -50,7 +50,7 @@ nav ul {
 }
 
 nav li{
-	width: 100px;
+	width: 33.33333333%;      /*100px*/
 	background: silver;
 	float: left;
 }
@@ -92,7 +92,7 @@ h2{
 .logo{
 	float:left;
 	border: 10px solid white;
-	width: 350px;
+	width: 350px;  /*350px*/
 }
 
 
@@ -143,7 +143,7 @@ div p{
 
 div{
 	overflow: hidden;
-	padding: 10px;
+	padding: 1.25%; /*10px*/
 	background-color: white;
 	height: 295px;
 	
@@ -205,18 +205,59 @@ div{
 
 /*media queries--------------------------------------------------------------------*/
 
-/*Tablet*/
+/*Tablet----------------------------------------------------------------------------*/
  @media screen and (min-width: 768px) and (max-width: 959px) {
+ 	
+ 	body{
+ 		/*background-color:red;*/
+ 	}
+ 
  }
 
-/*Mobile*/
+/*Mobile----------------------------------------------------------------------------*/
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	body{
+ 		/*background-color:blue;*/
+ 	}
+ 	aside{
+ 		-moz-column-count: 0;
+ 	}
+ 	
+ 	.logo{
+ 		float: none;
+ 		
+ 	}
+ 	section{
+ 		float:none;
+ 	}
 }
 
-/* mobile portrait*/
+/* mobile portrait--------------------------------------------------------------------*/
 
 @media only screen and(max-width: 479px){
+
+
+	body{
+ 		/*background-color:yellow;*/
+ 		
+ 	}
+ 	
+ 	aside{
+ 		-moz-column-count: 0;
+ 	}
+ 	
+ 	.logo{
+ 		float: none;
+ 	}
+ 	.gallery{
+ 		float: none;
+ 	}
+ 	section{
+ 		float:none;
+ 	}
+ 	
 }
 
 
