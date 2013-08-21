@@ -83,7 +83,7 @@ h1{
 
 h2{
 	font-family:"Brush Script Std";
-	font-size:35px;
+	font-size: 218.8%; /*35px*/
 	color: white;
 	text-shadow: 2px 2px 2px black;
 }
@@ -92,17 +92,17 @@ h2{
 .logo{
 	float:left;
 	border: 10px solid white;
-	width: 350px;  /*350px*/
+	max-width: 100%;  /*350px*/
 }
 
 
 aside{
 	clear:both;
 	-moz-column-count: 4;
-	-moz-column-gap: 25px;
+	-moz-column-gap: 3.125%; /*25px*/
 	font-family: "Helvetica Neue";
 	line-height: 1.2;
-	font-size: 14px;
+	font-size: 87.5% /*14  px*/
 	/*margin-top:20px;*/
 	height: 200px;
 }
@@ -112,13 +112,13 @@ article{
 	overflow:hidden;
 	font-family: "Helvetica Neue";
 	line-height: 1.2;
-	font-size: 14px;
+	font-size: 87.5% /* 14 px*/
 }
 
 footer{
 	font-family: "Helvetica Neue";
 	line-height: 1.2;
-	font-size: 14px;
+	font-size: 87.5%; /*14px*/
 	color: grey;
 	background-color: black;
 	padding: 4px;
@@ -138,7 +138,7 @@ img{
 div p{
 	font-family: "Helvetica Neue";
 	line-height: 1.2;
-	font-size: 24px;
+	font-size: 150%; /*24px*/
 }
 
 div{
@@ -222,7 +222,7 @@ div{
  		/*background-color:blue;*/
  	}
  	aside{
- 		-moz-column-count: 0;
+ 		-moz-column-count: none;
  	}
  	
  	.logo{
@@ -245,7 +245,7 @@ div{
  	}
  	
  	aside{
- 		-moz-column-count: 0;
+ 		-moz-column-count: none;
  	}
  	
  	.logo{
