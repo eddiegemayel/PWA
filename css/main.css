@@ -168,7 +168,7 @@ div p{
 	font-size: 150%; /*24px*/
 }
 
-div{
+.cta{
 	overflow: hidden;
 	padding: 1.25%; /*10px*/
 	background-color: white;
