@@ -129,7 +129,7 @@ aside{
 	-moz-column-gap: 3.125%; /*25px*/
 	font-family: "Helvetica Neue";
 	line-height: 1.2;
-	font-size: 87.5% /*14  px*/
+	font-size: 87.5%; /*14  px*/
 	/*margin-top:20px;*/
 	height: 200px;
 }
@@ -191,7 +191,7 @@ div p{
 
 label{
 	font-family:"Helvetica Neue" ;
-	font-size: 87.5% bold; /*14px*/
+	font-size: 87.5% ; /*14px*/
 	color: black;
 }
 
