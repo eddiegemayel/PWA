@@ -126,23 +126,38 @@
 		
 		
 		<!-- forms start............................................. -->
+		<h2>Sign Up Right Here!</h2>
 		<div class="form">
-			<h2>Sign Up Right Here!</h2>
+			
 		
-			<form method="get">
-				<span>Name:</span><input type="text" name="name">
+			<form method="get" class="name_form">
+				<label for="name">Name:</label>
+				<input type="text" name="name">
 			</form>
 		
-			<form method="get">
-				<span>Email:</span><input type="email" name="email">
+			<form class="email_form">
+				<label for="email">Email:</label>
+				<input type="email" name="email">
 			</form>
 		
-			<form method="get">
-				<span>Message:</span><input type="text-area" name="message">
+			<form class="message_form">
+				<label for="message">Message:</label>
+				<p><textarea name="message" rows="4" cols="70"></textarea></p>
 			</form>
-		
-			<form method="get">
+			
+			<form>
+				<label for="typeofsub">Type of Subscription:</label>
+				<select name="typeofsub">
+				<option value="free">Free</option>
+				<option value="prem">Premium</option>
+				<option value="pro">Pro</option>
+				</select>
+			</form>
+			
+			<form class="checkbox_form">
 				<input type="checkbox" name="I Agree" value="yes" <span>I agree to the <a href="http://en.wikipedia.org/wiki/Terms_of_service"> Terms of Agreement.</a></span>
+				
+				<input type="submit" value="Submit"/>
 			</form>
 		
 		</div>
