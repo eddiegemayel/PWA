@@ -1,1 +1,3 @@
-console.log('test');
+console.log('happymonkeydance');
+var initialValue=1;
+
