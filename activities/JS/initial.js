@@ -1,8 +1,12 @@
-var initialValue=1;
 
-console.log(initialValue);
 
-initialValue=initialValue+1;
-initialValue+=1;
+//Salary Math
+var salary=10000;
+var raise=.05;
+var yearOne=salary*raise+salary;
+var yearTwo=yearOne*.05+yearOne;
+var yearThree=yearTwo*.05+yearTwo;
 
-console.log(initialValue);
+console.log(yearOne +' Year One');
+console.log(yearTwo +' Year Two');
+console.log(yearThree+ ' Year Three');
