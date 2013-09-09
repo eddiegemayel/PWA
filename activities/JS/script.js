@@ -1,5 +1,7 @@
 
 
-var age = 19;
+var muppetNames= ["Kermit", "Miss Piggy"];
 
-var isStudent = false;
+muppetNames[1] = "Rizzo";
+
+console.log(muppetNames[1]);
