@@ -1,3 +1,3 @@
 
 
-document.querySelector("body").style.backgroundcolor= "#00FF00";
+document.querySelector("body").style.backgroundColor= "#00FF00";
