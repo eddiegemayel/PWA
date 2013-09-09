@@ -1,3 +1,5 @@
 
 
-document.querySelector("body").style.backgroundColor= "#00FF00";
+var age = 19;
+
+var isStudent = false;
