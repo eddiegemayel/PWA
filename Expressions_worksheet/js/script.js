@@ -54,11 +54,18 @@ console.log("You have spent a total of $"+ actualTotal +" on groceries over 5 we
 
 
 
+
 //Discounts
 
 var price = 20;
-var discount = .10;
+var discountPercent = .10;
 var item = "Vaccum";
 var tax = .06;
+var discount = (price* discountPercent);
+var newPrice = price - discount;
+var priceTax = newPrice * tax;
+
+
+console.log("Your "+ item +" was originally $"+ price +", but after the "+ discountPercent *100 +"%, it's now $"+ (newPrice + priceTax)   +" with tax, $"+ newPrice +" without tax.");
 
 
