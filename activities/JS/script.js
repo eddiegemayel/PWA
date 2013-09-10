@@ -1,7 +1,3 @@
 
-
-var muppetNames= ["Kermit", "Miss Piggy"];
-
-muppetNames[1] = "Rizzo";
-
-console.log(muppetNames[1]);
+var a =2;
+console.log(a);
