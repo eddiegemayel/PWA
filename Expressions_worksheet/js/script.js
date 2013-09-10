@@ -56,6 +56,9 @@ console.log("You have spent a total of $"+ actualTotal +" on groceries over 5 we
 
 //Discounts
 
-
+var price = 20;
+var discount = .10;
+var item = "Vaccum";
+var tax = .06;
 
 
