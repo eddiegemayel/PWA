@@ -1,5 +1,5 @@
+var width = 4;
 
-var yearBorn = 1994;
+var height = 5;
 
-var age = 2013 - yearBorn;
-console.log(age);
+var area = width* height;
