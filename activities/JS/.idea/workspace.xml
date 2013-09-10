@@ -5,7 +5,7 @@
     <ignored path="JS.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="8626eb0d-e463-4fa3-b233-b5ac1909b6e7" time="1378752813286" ignored="false" />
-    <file path="/script.js" changelist="8626eb0d-e463-4fa3-b233-b5ac1909b6e7" time="1378785226110" ignored="false" />
+    <file path="/script.js" changelist="8626eb0d-e463-4fa3-b233-b5ac1909b6e7" time="1378785255775" ignored="false" />
     <file path="/styles.css" changelist="8626eb0d-e463-4fa3-b233-b5ac1909b6e7" time="1378752732914" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,19 +35,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="10" selection-start="33" selection-end="33" vertical-scroll-proportion="0.06320225">
+            <state line="4" column="17" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="29" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -65,9 +65,9 @@
       <list>
         <option value="$PROJECT_DIR$/initial.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/../css/styles.css" />
         <option value="$PROJECT_DIR$/../index.html" />
         <option value="$PROJECT_DIR$/script.js" />
+        <option value="$PROJECT_DIR$/../css/styles.css" />
       </list>
     </option>
   </component>
@@ -241,13 +241,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="29" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="39" selection-start="145" selection-end="145" vertical-scroll-proportion="-3.75">
@@ -257,7 +250,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="10" selection-start="33" selection-end="33" vertical-scroll-proportion="0.06320225">
+        <state line="4" column="17" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
