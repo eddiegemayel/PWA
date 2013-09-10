@@ -40,10 +40,22 @@ console.log("Sparky gets "+ perPerson + " slices of pizza."); //displaying the c
 
 //Shopping Bill
 
-var groceryTotals = [100, 60, 110, 85, 90];
-var actualTotal = groceryTotals[0] + groceryTotals[1] + groceryTotals[2] + groceryTotals[3] + groceryTotals[4];
-var avg = actualTotal / 5;
+var groceryTotals = [100, 60, 110, 85, 90]; 	//this variable tells how much ive spend on groceries every week (5) total weeks
+
+var actualTotal = groceryTotals[0] + groceryTotals[1] + groceryTotals[2] + groceryTotals[3] + groceryTotals[4];			//this variable adds up all the info in the array to find the actual total ive spent in the past 5 weeks
+
+
+var avg = actualTotal / 5;		//this variable takes the total and divides by 5, giving the average
 
 
 console.log("You have spent a total of $"+ actualTotal +" on groceries over 5 weeks. Average of $" + avg + " a week.");
+
+// the above code displays the info gathered previously
+
+
+
+//Discounts
+
+
+
 
