@@ -13,6 +13,7 @@ console.log("Sparky is " + age +" human years old which is "+ dogYears +" in dog
 
 
 
+
 //Slice of Pie I
 
 var slices = 6;  //this variable describes how many slices are per pizza
@@ -25,3 +26,16 @@ console.log("Each person ate "+ perPerson + " slices of pizza at the party.");
 
 //code above displays math and how much slices each person recieves
 
+
+
+
+//Slice of Pie II
+
+var perPerson= (slices * pizzas) % people; // Percent sign tells the computer to show me the remainder instead of the total 
+
+console.log("Sparky gets "+ perPerson + " slices of pizza."); //displaying the collected information
+
+
+
+
+//Shopping Bill
