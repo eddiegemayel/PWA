@@ -1,7 +1,7 @@
 console.log("started");
 
-var first = "bob";
-var last = "smith";
-var full = first + " " +  last;
+var base = 10;
+var height = 5;
+var area = (base*height) * .5;
 
-console.log(full);
+console.log(area);
