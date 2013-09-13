@@ -1,7 +1,7 @@
 console.log("started");
 
-var base = 10;
-var height = 5;
-var area = (base*height) * .5;
+var testGrade = 80;
 
-console.log(area);
+if (testGrade>69){
+
+}
