@@ -1,11 +1,10 @@
 console.log("started");
 
-var testGrade = 50;
+var testGrade = 87;
 
-if (testGrade>69){
-	console.log("Awesome!");
+if (testGrade>90){
+	console.log("You got an A.");
 }
-
-else{
-	console.log("Damn....!");
+else if (testGrade > 80){
+	console.log("You got a B.");
 }
