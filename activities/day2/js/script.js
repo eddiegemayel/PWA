@@ -1,19 +1,22 @@
 console.log("started");
 
 var testGrade = 50;
+var letterGrade = "";
 
 if (testGrade>90){
-	console.log("You got an A.");
+	letterGrade = "A";
 }
 else if (testGrade > 80){
-	console.log("You got a B.");
+	letterGrade = "B";
 }
 else if(testGrade > 70){
-	console.log("You got a C.");
+	letterGrade = "C";
 }
 else if(testGrade > 60){
-	console.log("You got a D.");
+	letterGrade = "D";
 }
 else{
-	console.log("You failed!");
+	letterGrade="F";
 }
+
+console.log("A " + testGrade + " is a " + letterGrade);
