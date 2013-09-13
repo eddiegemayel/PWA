@@ -1,5 +1,7 @@
 console.log("started");
 
-var score = 0;
+var first = "bob";
+var last = "smith";
+var full = first + " " +  last;
 
-score += 10;
+console.log(full);
