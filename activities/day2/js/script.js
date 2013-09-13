@@ -1,6 +1,6 @@
 console.log("started");
 
-var testGrade = 50;
+var testGrade = 91;
 var letterGrade = "";
 
 if (testGrade>90){
@@ -20,3 +20,7 @@ else{
 }
 
 console.log("A " + testGrade + " is a " + letterGrade);
+
+if (letterGrade =="C" || letterGrade == "A"){
+	console.log("yeah");
+}
