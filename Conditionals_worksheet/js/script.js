@@ -13,3 +13,11 @@ else{
 	console.log("You can only make it the next "+ distance+" miles! Better re-fuel son.");
 }		//if the distance is less than 200, better get gas so you dont die!
  
+ 
+ 
+ // Check Login
+ 
+ var username = "student988";
+ var password = "fullSail299";
+ 
+ 
