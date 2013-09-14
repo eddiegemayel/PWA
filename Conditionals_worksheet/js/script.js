@@ -43,14 +43,16 @@ else{
  // Tire Pressure
  
  
- var tirePressure = [34, 34, 20, 18];
+ var tirePressure = [34, 34, 20, 18];		//Array containing tire pressures. First two numbers are front tires. Last two numbers are rear tires.
  
  if(tirePressure[0] != tirePressure[1] || tirePressure[2] != tirePressure[3]){
  	console.log("Get your tires checked fool!");
- }
+ }		//If any pair of those tires dont match, stop right there! Get your tires checked
+ 
+ 
  else if(tirePressure[0] == tirePressure[1] && tirePressure[2] == tirePressure[3]){
  	console.log("You good!");
- }
+ }		//If they equal, you are good to continue driving on.
  
  
  
