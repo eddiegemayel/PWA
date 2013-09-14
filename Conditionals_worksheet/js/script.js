@@ -17,18 +17,22 @@ else{
  
  // Check Login
  
- var username = "student988";
- var password = "fullSail";
+ var username = "student988";		//username that the "user" entered 
+ var password = "fullSail";			//password entered
  
- var correctUsername = "student988";
- var correctPassword = "fullSail700";
+ var correctUsername = "student988";		//the correct username
+ var correctPassword = "fullSail700";		//correct password to login
  
  if(username == correctUsername && password == correctPassword){
  	console.log("Welcome, "+ correctUsername +"!");
- }
+ }		//if both username and password match up, deliver successful login message
+ 
+ 
  else if(username == correctUsername && password != correctPassword){
  	console.log("Password not correct. Please try again.");
- }
+ }		//if only password is wrong, let the user know through the console log
+ 
+ 
  else if(username != correctUsername && password != correctPassword){
  	console.log("Username and password are incorrect.");
- }
+ }		//if both are wrong, deliver error message to the user
