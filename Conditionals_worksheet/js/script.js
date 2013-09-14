@@ -36,3 +36,26 @@ else{
  else if(username != correctUsername && password != correctPassword){
  	console.log("Username and password are incorrect.");
  }		//if both are wrong, deliver error message to the user
+ 
+ 
+ 
+ 
+ // Tire Pressure
+ 
+ 
+ var tirePressure = [34, 34, 20, 18];
+ 
+ if(tirePressure[0] != tirePressure[1] || tirePressure[2] != tirePressure[3]){
+ 	console.log("Get your tires checked fool!");
+ }
+ else if(tirePressure[0] == tirePressure[1] && tirePressure[2] == tirePressure[3]){
+ 	console.log("You good!");
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
