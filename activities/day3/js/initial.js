@@ -15,3 +15,8 @@ else if (score ==0){
 else{
 	console.log("You suck!");
 }
+
+
+var newArray =["apple", "pear", "orange"];
+
+console.log(newArray[0]);
