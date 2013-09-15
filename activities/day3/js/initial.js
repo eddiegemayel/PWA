@@ -17,8 +17,9 @@ else{
 }
 
 
-var newArray =["apple", "pear", "orange"];
+var gamesArray =["GTA", "FIFA", "Fallout"];
 
-console.log(newArray[0]);
-newArray.push("bat");
-console.log(newArray[3]);
+console.log(gamesArray[0]);
+gamesArray.push("Saints Row");
+console.log(gamesArray[3]);
+
