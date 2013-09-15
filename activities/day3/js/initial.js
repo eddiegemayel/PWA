@@ -20,3 +20,5 @@ else{
 var newArray =["apple", "pear", "orange"];
 
 console.log(newArray[0]);
+newArray.push("bat");
+console.log(newArray[3]);
