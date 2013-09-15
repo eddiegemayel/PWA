@@ -24,5 +24,6 @@ else if(totalCost > 300){
 	console.log(message);
 }
 else{
-	
+	message="Sorry you are poor! Keep enjoying your old phone!";
+	console.log(message);
 }
