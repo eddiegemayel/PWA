@@ -17,5 +17,5 @@ if(total > profit){
 }
 
 else if(total <= profit){
-	console.log("You only made $"+ total +" today. You fail.");
+	console.log("You only made $"+ total +" today, and you needed to make more than $"+profit+". You fail.");
 }
