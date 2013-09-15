@@ -12,7 +12,10 @@ var totalCost= uncle+parents+granny;
 
 var phoneCost= 300;
 
+var message="";
 
-if(totalCost){
-	
+
+if(totalCost == 300){
+	message="Wow just enough money! Enjoy your new phone!";
+	console.log(message);
 }
