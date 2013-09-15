@@ -16,7 +16,7 @@ console.log(newArray[3] [0]);
 var loopingArray=[];
 
 //for(i=0;				//initial variable and value
-//	i<=10;				//number of times to do the loop
+//	i<=10;				//when to stop
 //	i++){				//what to do to the initial value after loop is finished
 	
 	//stuff to be done
@@ -43,3 +43,29 @@ for(i=10; i>=0; i--){
 
 }
 console.log("Blastoff!");
+
+
+// 10x10 map. Land, ocean, jungle, desert, etc. use Math.random();
+
+console.log(Math.random());
+
+var food;
+var jam =.35;
+var japa =.7;
+var burger =.8;
+var duck=1;
+
+
+var randomValue = Math.random();
+
+if(randomValue <jam){ foodType ="Jamicain"}
+else if (randomValue<japa){foodTpe="Japan"}
+else if(randomValue < burger){foodType="Burger"}
+else{foodType="Duck"}
+
+console.log(foodType);
+console.log(randomValue);
+
+
+
+
