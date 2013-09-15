@@ -9,7 +9,7 @@ var grade3=prompt("Please enter your grade on the third exam: ");
 
 var avg=(grade1 * grade2 * grade3) /3;
 
-
+(avg>60) ? console.log("You are pretty smart son!") : console.log("You are a fool!");
 
  
  
