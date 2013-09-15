@@ -19,3 +19,10 @@ if(totalCost == 300){
 	message="Wow just enough money! Enjoy your new phone!";
 	console.log(message);
 }
+else if(totalCost > 300){
+	message="You have rich family members! Enjoy your new phone!";
+	console.log(message);
+}
+else{
+	
+}
