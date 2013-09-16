@@ -11,8 +11,6 @@ function myFirstFunction (number1, number2){
 
 console.log(myFirstFunction(5,7));
 
-
-
 function mySecondFunction (number1, number2){
 	return parseInt(number1) + parseInt(number2);
 
@@ -30,7 +28,6 @@ function landSelection(){
 	if(percentChance < .5){return 'woods'}
 	else {return 'jungle'} 
 }
-
 
 for (i=0; i<100; i++){
 	
