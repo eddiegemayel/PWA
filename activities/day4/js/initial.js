@@ -37,3 +37,14 @@ for (i=0; i<100; i++){
 	console.log(landSelection());
 
 }
+
+// function that cubes a value
+
+
+function cube(){
+
+	var num=prompt("Enter a number to be cubed: ");
+	return num*num*num;
+}
+
+console.log(cube());
