@@ -38,10 +38,13 @@ for (i=0; i<100; i++){
 // function that cubes a value
 
 
-function cube(){
-
-	var num=prompt("Enter a number to be cubed: ");
-	return num*num*num;
+function test(num1){
+	var cube = num1*num1*num1;
+	return num1 + "*" + num1 + "*" + num1 + "*" + "= " + cube;
 }
 
-console.log(cube());
+for(i=0; i<10; i++){
+	console.log(test(i));
+}
+
+ 
