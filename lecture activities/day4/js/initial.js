@@ -24,7 +24,10 @@ console.log(mySecondFunction(5,7));
 
 
 function landSelection(){
-	var percentChange = Math.floor(10*Math.random());
+	var init = Math.random()*10;
+	var percentChange = Math.floor(init);
+	
+	
 	var woods=0;
 	var jungle=1;
 	var swamp=2;
@@ -38,41 +41,44 @@ function landSelection(){
 	var returnLandType;
 	
 	
-	if(percentChange =woods)
-	{returnLandType= "woods"}
-	else if (percentChange = jungle)
-	{returnLandType = "Jungle"}
-	else if(percentChange = swamp)
-	{returnLandType = "Swamp"}
-	else if(percentChange = desert)
-	{returnLandType = "Desert"}
-	else if(percentChange = mountains)
-	{returnLandType = "Mountains"}
-	else if(percentChange = grasslands)
-	{returnLandType = "Grasslands"}
-	else if(percentChange = tundra)
-	{returnLandType = "Tundra"}
-	else if(percentChange = hills)
-	{returnLandType = "Hills"}
-	else if(percentChange = city)
-	{returnLandType = "City"}
-	else if(percentChange = wasteland)
-	{returnLandType = "Wasteland"}
+	if(percentChange ==woods)
+	{returnLandType= "woods\t"}
+	else if (percentChange == jungle)
+	{returnLandType = "Jungle\t"}
+	else if(percentChange == swamp)
+	{returnLandType = "Swamp\t"}
+	else if(percentChange == desert)
+	{returnLandType = "Desert\t"}
+	else if(percentChange == mountains)
+	{returnLandType = "Mountains\t"}
+	else if(percentChange == grasslands)
+	{returnLandType = "Grasslands\t"}
+	else if(percentChange == tundra)
+	{returnLandType = "Tundra\t"}
+	else if(percentChange == hills)
+	{returnLandType = "Hills\t"}
+	else if(percentChange == city)
+	{returnLandType = "City\t"}
+	else if(percentChange == wasteland)
+	{returnLandType = "Wasteland\t"}
 	return returnLandType;
 }
 
+for(j=0 ; j<10; j++)
+{
+	var rowOfLand="";
 
-var rowOfLand="";
+}
 
 
 for (i=0; i<10; i++){
-	if(i>0){
+	if(i==0){
 		rowOfLand += landSelection();
 	}
 	else{
-		rowOfLand =rowOfLand +", "+ landSelection();
+		rowOfLand =rowOfLand +"\t"+ landSelection();
 	}
-
+ console.log(rowOfLand);
 }
 
 console.log(rowOfLand);
