@@ -17,14 +17,16 @@ console.log("The circumference of a circle is "+ circumference());		//console lo
 
 
 //Stung
-var victimWeight = 200;
-function sting(){
-	var victimWeight = 200;
-	var stingsForDeath = 8.66666667;
-	var death = victimWeight * stingsForDeath;
-	return death;
+var victimWeight = 200;				//variable for weight of animal
+function sting(){					//function named sting
+	var victimWeight = 200;			//variable for weight of animal again
+	var stingsForDeath = 8.66666667;//variable for how many stings per pound
+	var death = victimWeight * stingsForDeath;//formula for death of the animal
+	return death;					//return the death value
 }
 
-console.log("It would take "+ sting() + "stings to kill a " + victimWeight +"lbs animal.");
+console.log("It would take "+ sting() + " stings to kill a " + victimWeight +"lbs animal.");
+
+//the code above is to console log out the information and data collected in the function
 
 
