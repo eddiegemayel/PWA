@@ -17,12 +17,14 @@ console.log("The circumference of a circle is "+ circumference());		//console lo
 
 
 //Stung
-
+var victimWeight = 200;
 function sting(){
 	var victimWeight = 200;
 	var stingsForDeath = 8.66666667;
 	var death = victimWeight * stingsForDeath;
 	return death;
 }
+
+console.log("It would take "+ sting() + "stings to kill a " + victimWeight +"lbs animal.");
 
 
