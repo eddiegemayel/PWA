@@ -10,6 +10,12 @@ function circumference (){			//started the function and named it circumference
 	var answer = 2*pi*radius;		//variable "answer" with circumference formula
 	return answer;					//tells the function to return to us the answer
 }
-console.log(circumference());		//console log the function
+console.log("The circumference of a circle is "+ circumference());		//console log the function
+
+
+
+
+
+//Stung
 
 
