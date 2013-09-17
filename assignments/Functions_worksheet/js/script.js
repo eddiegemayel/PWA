@@ -4,12 +4,12 @@
 //Circumference 
 //Formula = C=d*pi  or 2*pi*r=C
 
-function circumference (){
-	var radius = 6;
-	var pi = 3.14;
-	var answer = 2*pi*radius;
-	return answer;
+function circumference (){			//started the function and named it circumference
+	var radius = 6;					//variable "radius" with a value of 6
+	var pi = 3.14;					//variable "pi" with a value of 3.14
+	var answer = 2*pi*radius;		//variable "answer" with circumference formula
+	return answer;					//tells the function to return to us the answer
 }
-console.log(circumference());
+console.log(circumference());		//console log the function
 
 
