@@ -2,21 +2,21 @@
 
 //functions
 
-function myFirstFunction (number1, number2){
-	var productofNum1AndNum2;
-	productofNum1AndNum2 = parseInt(number1)*parseInt(number2);
-	return productofNum1AndNum2;
+//function myFirstFunction (number1, number2){
+//	var productofNum1AndNum2;
+//	productofNum1AndNum2 = parseInt(number1)*parseInt(number2);
+//	return productofNum1AndNum2;
 
-}
+//}
 
-console.log(myFirstFunction(5,7));
+//console.log(myFirstFunction(5,7));
 
-function mySecondFunction (number1, number2){
-	return parseInt(number1) + parseInt(number2);
+//function mySecondFunction (number1, number2){
+//	return parseInt(number1) + parseInt(number2);
 
-}
+//}
 
-console.log(mySecondFunction(5,7));
+//console.log(mySecondFunction(5,7));
 
 //both work
 
@@ -42,39 +42,68 @@ function landSelection(){
 	
 	
 	if(percentChange ==woods)
-	{returnLandType= "woods\t"}
+	{returnLandType= "Woods"}
 	else if (percentChange == jungle)
-	{returnLandType = "Jungle\t"}
+	{returnLandType = "Jungle"}
 	else if(percentChange == swamp)
-	{returnLandType = "Swamp\t"}
+	{returnLandType = "Swamp"}
 	else if(percentChange == desert)
-	{returnLandType = "Desert\t"}
+	{returnLandType = "Desert"}
 	else if(percentChange == mountains)
-	{returnLandType = "Mountains\t"}
+	{returnLandType = "Mountains"}
 	else if(percentChange == grasslands)
-	{returnLandType = "Grasslands\t"}
+	{returnLandType = "Grasslands"}
 	else if(percentChange == tundra)
-	{returnLandType = "Tundra\t"}
+	{returnLandType = "Tundra"}
 	else if(percentChange == hills)
-	{returnLandType = "Hills\t"}
+	{returnLandType = "Hills"}
 	else if(percentChange == city)
-	{returnLandType = "City\t"}
+	{returnLandType = "City"}
 	else if(percentChange == wasteland)
-	{returnLandType = "Wasteland\t"}
+	{returnLandType = "Wasteland"}
 	return returnLandType;
 }
 
 var world=[];
 
-for(j=0 ; j<10; j++){//remove rowoflandvariable
-	//var rowOfLand="";
+for(j=0 ; j<10; j++){				//remove rowoflandvariable
+									//var rowOfLand="";
 	
-	world[j]=[]; //for every row, make a column go across.
+	world[j]=[]; 					//for every row, make a column go across.
 	
+	for(i=0;i<10;i++){
+		
+		world[j][i]=landSelection();
+		//console.log(world[j][i]);
+	
+	}
+	
+}
+
+var wps ="";
+
+for(outer=0; outer<10; outer++){
+	wps="";
+	for(inner=0; inner<10; inner++){
+		wps += world[outer][inner];
+		if(world[outer][inner].length>7){
+			wps +="\t"
+			
+		}
+		else if(world[outer][inner].length>3){
+			wps += "\t\t"
+		}
+		else if(world[outer][inner].length<=3){
+			wps += "\t\t\t";
+		}
+		
 	
 	}
 
+	console.log(wps);
 
+
+}
 
 
 
