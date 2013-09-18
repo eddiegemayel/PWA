@@ -64,35 +64,38 @@ function landSelection(){
 	return returnLandType;
 }
 
-for(j=0 ; j<10; j++)
-{
-	var rowOfLand="";
+var world=[];
 
-}
-
-
-for (i=0; i<10; i++){
-	if(i==0){
-		rowOfLand += landSelection();
+for(j=0 ; j<10; j++){//remove rowoflandvariable
+	//var rowOfLand="";
+	
+	world[j]=[]; //for every row, make a column go across.
+	
+	
 	}
-	else{
-		rowOfLand =rowOfLand +"\t"+ landSelection();
-	}
- console.log(rowOfLand);
-}
 
-console.log(rowOfLand);
+
+
+
+
+
+
+
+
+
+
+
 
 // function that cubes a value
 
 
-function test(num1){												//function called test with variable num1
-	var cube = num1*num1*num1;										//variable that cubes the num1 
-	return num1 + "*" + num1 + "*" + num1 + "*" + "= " + cube;		//return the value of cube plus strings to make it look nice
-}
+//function test(num1){												//function called test with variable num1
+//	var cube = num1*num1*num1;										//variable that cubes the num1 
+//	return num1 + "*" + num1 + "*" + num1 + "*" + "= " + cube;		//return the value of cube plus strings to make it look nice
+//}
 
-for(i=0; i<10; i++){												//the loop starts at 0
-	console.log(test(i));											//conolse log it out
-}
+//for(i=0; i<10; i++){												//the loop starts at 0
+//	console.log(test(i));											//conolse log it out
+//}
 
  
