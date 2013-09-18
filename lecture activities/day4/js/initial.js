@@ -64,6 +64,23 @@ function landSelection(){
 	return returnLandType;
 }
 
+function tabGen (len){
+	if(len>7){
+			return "\t";
+			
+		}
+		else if(len>3){
+			return "\t\t";
+		}
+		else if(len<=3){
+			return "\t\t\t";
+		}
+	
+}
+
+
+
+
 var world=[];
 
 for(j=0 ; j<10; j++){				//remove rowoflandvariable
@@ -86,16 +103,7 @@ for(outer=0; outer<10; outer++){
 	wps="";
 	for(inner=0; inner<10; inner++){
 		wps += world[outer][inner];
-		if(world[outer][inner].length>7){
-			wps +="\t"
-			
-		}
-		else if(world[outer][inner].length>3){
-			wps += "\t\t"
-		}
-		else if(world[outer][inner].length<=3){
-			wps += "\t\t\t";
-		}
+		wps+= tabGen(world[outer][inner].length );
 		
 	
 	}
