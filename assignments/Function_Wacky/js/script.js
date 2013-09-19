@@ -2,9 +2,15 @@
 
 
 //Function to see if you are old enough to watch rated R movie
-
+// have to be born in at least 1996
 
 var dob = prompt("Please enter your date of birth : ");
+
+function oldEnough (birthYear){
+		var currentYear = 2013;
+		var age = currentYear - birthYear;
+
+}
  
  
  
