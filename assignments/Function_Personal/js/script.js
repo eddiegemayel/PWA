@@ -11,7 +11,9 @@ var score3 = prompt("Enter the third Score you got on Super Mario Bros: ");
 
 function calcScore (){
 
-	
+	var avgScore ;
+	avgScore = (score1* score2* score3) / 3;
+	return avgScore;
 
 
 }
