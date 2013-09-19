@@ -16,7 +16,7 @@ function calcScore (){
 	
 	
 	avgScore = (score1* score2* score3) / 3;
-	return avgScore;
+	
 
 	if(avgScore > 10000){
 		result = "Wow! You are a pro! With a score of "+ avgScore + "!";
@@ -26,11 +26,15 @@ function calcScore (){
 		result = "Right at 10,000? Interesting Score.";
 	
 	}
-	else(){
+	else{
 		result = "You fail! Your score was only "+ avgScore + "!";
 	}
+	
+	
+	//return avgScore;
+	return result;
 }
- 
+ console.log(calcScore());
  
  
  
