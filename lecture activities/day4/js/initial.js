@@ -116,14 +116,15 @@ for(outer=0; outer<10; outer++){
 
 
 
-
+//////////////////////////////////////////////////////////////////////////////////////////
 //step one: sort the world alphabetically so it appears in blocks and chunkss
 //
-//step two: prompt for x and y coordinate to see where u r
+//step two: prompt for [x] and [y] coordinate to see where u r. Prompt then if statement
 //
 //step three: start process of making it a game
-
-
+//
+//step four: Edges. you can stop player or teleport them to opposite side of the map
+//////////////////////////////////////////////////////////////////////////////////////////
 
 
 // function that cubes a value
