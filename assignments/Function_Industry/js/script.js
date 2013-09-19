@@ -3,6 +3,10 @@
 
 //Finding the Volume of a Cube
 //Length * Width * Height
+
+function volume (height, width, length){
+		
+
+}
  
  
-  
