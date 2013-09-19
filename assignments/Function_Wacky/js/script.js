@@ -12,10 +12,11 @@ function oldEnough (birthYear){
 		var result ="";
 		
 		result = (age >= 17) ? "You can see this R rated movie since you are "+ age +"." : "You cannot see this R rated movie since you are the childish age of "+ age +"." ; 
-
+		
+		return result;
 }
  
- 
+ console.log(oldEnough(dob));
  
  
  
