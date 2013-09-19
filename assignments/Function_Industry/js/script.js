@@ -16,4 +16,4 @@ function volume (height, width, length){
 
 }
  
-//console.log(volume(20, 10, 5));
+console.log(volume(height, width, length));
