@@ -6,6 +6,7 @@
 
 var height = prompt("Enter the height of the cube: ");
 var width = prompt("Enter the width of the cube: ");
+var length = prompt("Enter the length of the cube: ");
 
 
 function volume (height, width, length){
