@@ -20,9 +20,9 @@ function oldEnough (birthYear){
 		
 		
 		
-		result = (age >= 17) ? "You can see this R rated movie since you are "+ age +"." : "You cannot see this R rated movie since you are the childish age of "+ age +"." ; 
+		result = (age >= 17) ? "You can see this R rated movie since you are "+ age +" years of age." : "You cannot see this R rated movie since you are the childish age of "+ age +"." ; 
 		
-		//the code above is a Ternary. This takes your age and finds out if you are old enough; the tells the "result" variable what to display.
+		//the code above is a Ternary. This takes your age and finds out if you are old enough; then tells the "result" variable what to display.
 		
 		
 		return result;
