@@ -2,6 +2,9 @@
 
 
 //Function to see if you are old enough to watch rated R movie
+
+
+var dob = prompt("Please enter your date of birth : ");
  
  
  
