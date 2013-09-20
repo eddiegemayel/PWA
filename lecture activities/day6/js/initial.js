@@ -18,3 +18,11 @@ do {
 while(validLength=false);
 
 
+secondPass = prompt("Please re-enter password: ");
+
+if(secondPass==initPass){
+	console.log("They match!");
+}
+else{
+	console.log("They do not match.");
+}
