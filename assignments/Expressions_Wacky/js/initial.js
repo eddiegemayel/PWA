@@ -8,5 +8,8 @@ var bodyArmor = parseInt(prompt("Enter the armor value of your equipped chest pi
 
 var legArmor = parseInt(prompt("Enter the armor value of your equipped leg piece(10-100): "));
 
+var totalArmor = (headArmor + bodyArmor + legArmor);
+
+var bossArmor = 250;
 
 
