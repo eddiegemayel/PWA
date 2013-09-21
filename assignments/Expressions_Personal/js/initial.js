@@ -10,6 +10,8 @@ shoppingCartCost[3] = prompt("Enter the cost of the fourth item in your shopping
 
 var budget = parseInt(prompt("Enter how much you can spend without going broke: "));
 
+var totalCost = shoppingCartCost[0] + shoppingCartCost[1] + shoppingCartCost[2] + shoppingCartCost[3]
+
 
 
 
