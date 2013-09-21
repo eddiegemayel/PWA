@@ -8,7 +8,7 @@ shoppingCartCost[1] = prompt("Enter the cost of the second item in your shopping
 shoppingCartCost[2] = prompt("Enter the cost of the third item in your shopping cart: ");
 shoppingCartCost[3] = prompt("Enter the cost of the fourth item in your shopping cart: ");
 
-
+var budget = parseInt(prompt("Enter how much you can spend without going broke: "));
 
 
 
