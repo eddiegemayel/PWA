@@ -8,4 +8,6 @@ var hourlyWage = parseInt(prompt("Enter the amount you get paid per hour: "));
 
 var hoursWorked = parseInt(prompt("Enter the amount of hours you work per week: "));
 
+var totalEarned = (hourlyWage * hoursWorked);
+
 
