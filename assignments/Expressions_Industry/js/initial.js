@@ -11,3 +11,6 @@ var hoursWorked = parseInt(prompt("Enter the amount of hours you work per week: 
 var totalEarned = (hourlyWage * hoursWorked);
 
 
+console.log("You work at "+ companyName +" and earn a total of $"+ totalEarned +" per week.");
+
+
