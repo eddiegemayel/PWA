@@ -4,5 +4,7 @@
 
 var headArmor = parseInt(prompt("Enter the armor value of your equipped helmet(10-100): "));
 
+var bodyArmor = parseInt(prompt("Enter the armor value of your equipped chest piece(10-100): "));
+
 
 
