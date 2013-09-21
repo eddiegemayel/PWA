@@ -12,4 +12,11 @@ var totalArmor = (headArmor + bodyArmor + legArmor);
 
 var bossArmor = 250;
 
+if(totalArmor >=bossArmor){
+	console.log("You are ready to face the final boss of this level...Good luck!");
+}
+else{
+	console.log("You are not ready to face the final boss yet. Your armor level is only "+ totalArmor +", and you need at least "+ bossArmor +".");
+}
+
 
