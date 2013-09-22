@@ -127,16 +127,5 @@ for(outer=0; outer<10; outer++){
 //////////////////////////////////////////////////////////////////////////////////////////
 
 
-// function that cubes a value
-
-
-//function test(num1){												//function called test with variable num1
-//	var cube = num1*num1*num1;										//variable that cubes the num1 
-//	return num1 + "*" + num1 + "*" + num1 + "*" + "= " + cube;		//return the value of cube plus strings to make it look nice
-//}
-
-//for(i=0; i<10; i++){												//the loop starts at 0
-//	console.log(test(i));											//conolse log it out
-//}
 
  
