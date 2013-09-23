@@ -24,6 +24,7 @@ var ypos=0;
 var end=true;
 
 //movement through arrays
+
 do{
 	var movement= prompt("Move your character which direction (N, S, E, W, or Q)");
 	if(movement =="N" || movement == "n"){
@@ -55,7 +56,21 @@ do{
 		ypos = 0;
 	}
 	
+	
+	
 	//console.log("X: "+xpos+" | Y: "+ypos);
 	console.log(world[ypos][xpos]);
 }
 while(end);
+
+
+
+
+
+
+
+
+
+
+
+
