@@ -52,7 +52,7 @@ function calcGrade (){
 		return gradeTotal = "You failed."
 	}
 	if(conditionalsTotal ==0){
-		return conditionalsTotal = "You failed."
+		return gradeTotal = "You failed."
 	}
 //In case one of those is zero...
 	
