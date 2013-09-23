@@ -32,10 +32,7 @@ function calcGrade (){
 	var variantsTotal = variants * .10;
 	var calculationTotal = calculation *.05;
 	var conditionalsTotal = conditionals * .35;
-
-
-
-
+// Variables that fail if Zero ------------------------------
 
 	var validationTotal = validation * .10;
 	var commentsTotal = comments * .10;
@@ -43,7 +40,10 @@ function calcGrade (){
 	var filesTotal = files * .10;
 	var completenessTotal = completeness * .05;
 	var investmentTotal = investment * .05;
+	
+	
 	var gradeTotal = variantsTotal + calculationTotal + conditionalsTotal + validationTotal + commentsTotal + githubTotal + filesTotal + completenessTotal+ investmentTotal;
+// Variable that calculates whole grade	
 	
 	if(variantsTotal ==0){
 		return gradeTotal = "You failed."
@@ -54,7 +54,7 @@ function calcGrade (){
 	if(conditionalsTotal ==0){
 		return conditionalsTotal = "You failed."
 	}
-	
+//In case one of those is zero...
 	
 	
 	return gradeTotal+"%";
