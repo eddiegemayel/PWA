@@ -34,8 +34,16 @@ function performance(current, avg){
 
 
 function max(array) {
+	var largest =0;
+	//var array=[];
 	
+	for(i=0; i< array.length; i++){
+		if(largest< array[i]){
+			largest=array[i];
+		}
+	}
 	
+	return largest;
 
 }
 
@@ -44,3 +52,4 @@ function max(array) {
 console.log("$"+ avg);
 console.log("You are expected to produce $" + expectation(avg, .03) + " next month.");
 console.log(performance(110,avg)+"%");
+console.log(max(monthSalesData));
