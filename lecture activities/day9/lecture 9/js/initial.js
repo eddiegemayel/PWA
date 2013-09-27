@@ -11,4 +11,4 @@ function info(name1, name2, age){
 
 console.log(info(firstName, lastName, age));
 
-//
+document.write(info(firstName, lastName, age));
