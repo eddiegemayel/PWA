@@ -47,9 +47,40 @@ function max(array) {
 
 }
 
+var max =max(monthSalesData);
+
+function min(array){
+	var smallest=200;
+	for(i=0; i<array.length; i++){
+		if(smallest> array[i]){
+			smallest=array[i];
+		}
+	}
+	return smallest;
+}
+var min = min(monthSalesData);
+
+function signal(min, max, current){
+
+	var result;
+	if(current>max){
+		result="You have sold more than has ever been sold!";
+	}
+	if(current<min){
+		result="You have sold less than has ever been sold...";
+	}
+	return result;
+	
+
+}
+
+
 
 
 console.log("$"+ avg);
 console.log("You are expected to produce $" + expectation(avg, .03) + " next month.");
 console.log(performance(110,avg)+"%");
-console.log(max(monthSalesData));
+//console.log(max(monthSalesData));
+//console.log(min(monthSalesData));
+console.log(signal(min, max, 200));
+
