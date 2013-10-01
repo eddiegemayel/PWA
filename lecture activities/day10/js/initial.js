@@ -77,10 +77,11 @@ function signal(min, max, current){
 
 
 
-console.log("$"+ avg);
-console.log("You are expected to produce $" + expectation(avg, .03) + " next month.");
-console.log(performance(110,avg)+"%");
+//console.log("$"+ avg);
+//console.log("You are expected to produce $" + expectation(avg, .03) + " next month.");
+//console.log(performance(110,avg)+"%");
 //console.log(max(monthSalesData));
-//console.log(min(monthSalesData));
-console.log(signal(min, max, 200));
-
+////console.log(min(monthSalesData));
+//console.log(signal(min, max, 200));
+console.log("Eddie\t\t\t100\nGemayel\t\t\t100");
+//console.log("\tJoe Dalton");
