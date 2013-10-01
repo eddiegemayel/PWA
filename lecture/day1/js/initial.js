@@ -21,6 +21,13 @@ var str = (min < 10 ? "0" : "") + min + ":" + (sec <10 ? "0" : "") + sec;
 
 console.log("Time : " + str);
 
+
+var grades =[97,100,89,69,40];
+
+grades.splice(1,1);
+
+console.log(grades);
+
 //console.log("0"+ min +" : 0" + sec);
 //console.log(min);
 //console.log(sec);
