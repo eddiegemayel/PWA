@@ -15,6 +15,17 @@ var player2Damage = 5;
 //round start
 var round = 0;
 
+
+
+//Math.floor(Math.random() * (max - min)
+
+function damage(min, max){
+	var result = Math.floor(Math.random()) *(max - min) + min;
+	return result;
+}
+
+
+
 function fight(){
 	alert(player1Name +" : "+ player1Health +"  START  "+ player2Name +" : "+player2Health);
 	
@@ -28,7 +39,10 @@ function fight(){
 		
 		
 		var result = winnerCheck();
+		
 		console.log(winnerCheck());
+		
+		
 		if(result =="No Winner"){
 			round++;
 			alert(player1Name + " : "+ player1Health +"  ROUND "+ round +" OVER" +"  "+ player2Name + " : " + player2Health);
