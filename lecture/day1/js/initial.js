@@ -28,6 +28,11 @@ grades.splice(1,1);
 
 console.log(grades);
 
+//length
+//pop()
+//splice()
+//push()
+
 //console.log("0"+ min +" : 0" + sec);
 //console.log(min);
 //console.log(sec);
