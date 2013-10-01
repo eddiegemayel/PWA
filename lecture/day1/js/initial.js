@@ -22,9 +22,13 @@ var str = (min < 10 ? "0" : "") + min + ":" + (sec <10 ? "0" : "") + sec;
 console.log("Time : " + str);
 
 
-var grades =[97,100,89,69,40];
+var grades =[97,100,89,"Bob",40];
+
+console.log(grades);
 
 grades.splice(1,1);
+
+grades.splice(grades.indexOf("Bob"),1);
 
 console.log(grades);
 
