@@ -9,8 +9,8 @@ var player2Name = "Batman";
 var player1Health = 100;
 var player2Health = 100;
 
-var player1Damage = 10;
-var player2Damage = 5;
+var player1Damage = 20;
+var player2Damage = 20;
 
 //round start
 var round = 0;
@@ -19,10 +19,10 @@ var round = 0;
 
 //Math.floor(Math.random() * (max - min)
 
-function damage(min, max){
-	var result = Math.floor(Math.random()) *(max - min) + min;
-	return result;
-}
+//function damage(min, max){
+//	var result = Math.floor(Math.random()) *(max - min) + min;
+//	return result;
+//}
 
 
 
@@ -49,7 +49,7 @@ function fight(){
 		}
 		else{
 			alert(result);
-			
+			break;
 		}
 	}
 	
