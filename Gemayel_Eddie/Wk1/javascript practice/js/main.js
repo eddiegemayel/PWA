@@ -70,16 +70,23 @@
 
     //--------------------------------------------------------
     console.log("3. word count");
-    var ipsum = "this is test text that is being used as input to a function"
+    var ipsum = "this is test text that is being used as input to a function";
 
-        //PUT FUNCTION HERE
+        function wordCount(list){
+        	var count = list.split(" ");
+        	
+        	return count.length;
+        }
 
     console.log(wordCount(ipsum));
 
     //--------------------------------------------------------
     console.log("4. sentence char count");
 
-        //PUT FUNCTION HERE
+        function charCount(words){
+        	var result = words.length;
+        	return result;
+        }
 
     console.log(charCount(ipsum));
 
