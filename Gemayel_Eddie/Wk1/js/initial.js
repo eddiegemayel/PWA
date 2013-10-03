@@ -1,6 +1,8 @@
 //lab1
 //Eddie Gemayel , Tuesday October 1 2013. Duel part 1
 
+console.log("FIGHT!");
+
 //player names
 var player1Name = "Spiderman";
 var player2Name = "Batman";
@@ -9,6 +11,7 @@ var player2Name = "Batman";
 var player1Health = 100;
 var player2Health = 100;
 
+//player damage
 var player1Damage = 20;
 var player2Damage = 20;
 
@@ -30,13 +33,15 @@ function fight(){
 	alert(player1Name +" : "+ player1Health +"  START  "+ player2Name +" : "+player2Health);
 	
 	for(i=0; i<10; i++){
-	
-		//player1Damage = player1Damage * Math.floor(Math.random()) * 5;
-		//player2Damage = player2Damage *.5;
 		
-		player1Health =  player1Health - player2Damage;
-		player2Health = player2Health - player1Damage;
-		
+		var minDamage1 = player1Damage * .5;
+        var minDamage2 = player2Damage * .5;
+        var f1 = Math.floor(Math.random()*(player1Damage-minDamage1)+minDamage1);
+    	var f2 = Math.floor(Math.random()*(player2Damage-minDamage2)+minDamage2);
+
+            //inflict damage
+            player1Health-=f1;
+            player2Health-=f2;
 		
 		var result = winnerCheck();
 		
