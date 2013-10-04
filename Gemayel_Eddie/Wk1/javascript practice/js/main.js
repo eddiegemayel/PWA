@@ -96,7 +96,9 @@
         function vowel(test){
         	var vowelCount = 0;
         	
-        	
+        	for(i=0; i<test.length; i++){
+        		
+        	}
         }
 
     console.log(vowelsInWord('JavaScript'));
