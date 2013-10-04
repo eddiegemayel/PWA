@@ -58,7 +58,7 @@
 
 	console.log(average);
 
-    //--------------------------------------------------------
+    //--------------------------------------------------------|
     console.log("2. concat first and last name");
 
         function fullName(firstName, lastName){
@@ -68,7 +68,7 @@
 
     console.log(fullName('James', 'Bond'));
 
-    //--------------------------------------------------------
+    //--------------------------------------------------------|
     console.log("3. word count");
     var ipsum = "this is test text that is being used as input to a function";
 
@@ -80,7 +80,7 @@
 
     console.log(wordCount(ipsum));
 
-    //--------------------------------------------------------
+    //--------------------------------------------------------|
     console.log("4. sentence char count");
 
         function charCount(words){
@@ -93,7 +93,11 @@
     //--------------------------------------------------------
     console.log("5. how many vowels in a word");
 
-        //PUT FUNCTION HERE
+        function vowel(test){
+        	var vowelCount = 0;
+        	
+        	
+        }
 
     console.log(vowelsInWord('JavaScript'));
 
