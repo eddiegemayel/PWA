@@ -93,7 +93,7 @@
     //--------------------------------------------------------
     console.log("5. how many vowels in a word");
 
-        function vowel(test){
+        function vowelsInWord(test){
         	var vowelCount = 0;
         	
         	for(i=0; i<test.length; i++){
@@ -103,10 +103,11 @@
         		if(f == "a" || f == "e" || f == "i" || f == "o" || f == "u"){
         			vowelCount++;
         		}
-        		else(){
+        		else{
         		
         		}
         	}
+        	return vowelCount;
         }
 
     console.log(vowelsInWord('JavaScript'));
