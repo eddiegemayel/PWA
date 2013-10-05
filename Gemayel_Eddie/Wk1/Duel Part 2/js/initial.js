@@ -5,16 +5,10 @@
 console.log("FIGHT!");
 
 //player names
-var player1Name = "Spiderman";
-var player2Name = "Batman";
+var player1 = ["Spiderman", 20, 100];
 
-//player healths
-var player1Health = 100;
-var player2Health = 100;
+var player2 = ["Batman", 20, 100];
 
-//player damage
-var player1Damage = 20;
-var player2Damage = 20;
 
 //round start
 var round = 0;
@@ -31,18 +25,18 @@ var round = 0;
 
 
 function fight(){
-	alert(player1Name +" : "+ player1Health +"  START  "+ player2Name +" : "+player2Health);
+	alert(player1[0] +" : "+ player1[2] +"  START  "+ player2[0] +" : "+player2[2]);
 	
 	for(i=0; i<10; i++){
 		
-		var minDamage1 = player1Damage * .5;
-        var minDamage2 = player2Damage * .5;
-        var f1 = Math.floor(Math.random()*(player1Damage-minDamage1)+minDamage1);
-    	var f2 = Math.floor(Math.random()*(player2Damage-minDamage2)+minDamage2);
+		var minDamage1 = player1[1] * .5;
+        var minDamage2 = player2[1] * .5;
+        var f1 = Math.floor(Math.random()*(player1[1]-minDamage1)+minDamage1);
+    	var f2 = Math.floor(Math.random()*(player2[1]-minDamage2)+minDamage2);
 
             //inflict damage
-            player1Health-=f1;
-            player2Health-=f2;
+            player1[2]-=f1;
+            player2[2]-=f2;
 		
 		var result = winnerCheck();
 		
@@ -51,7 +45,7 @@ function fight(){
 		
 		if(result =="No Winner"){
 			round++;
-			alert(player1Name + " : "+ player1Health +"  ROUND "+ round +" OVER" +"  "+ player2Name + " : " + player2Health);
+			alert(player1[0] + " : "+ player1[2] +"  ROUND "+ round +" OVER" +"  "+ player2[0] + " : " + player2[2]);
 		}
 		else{
 			alert(result);
@@ -62,13 +56,13 @@ function fight(){
 	function winnerCheck(){
 		var result ="No Winner";
 		
-		if(player2Health < 1){
-			result = player1Name + " WINS!";
+		if(player2[2] < 1){
+			result = player1[0] + " WINS!";
 		}
-		else if(player1Health < 1){
-			result = player2Name + " WINS!";
+		else if(player1[2] < 1){
+			result = player2[0] + " WINS!";
 		}
-		else if( player1Health < 1 && player2Health < 1){
+		else if( player1[2] < 1 && player2[2] < 1){
 			result = "You both DIE!";
 		}
 		return result;
