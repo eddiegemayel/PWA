@@ -1,4 +1,4 @@
-//lab1
+//duel part 2
 //Eddie Gemayel , Tuesday October 1 2013. Duel part 1
 
 (function(){
