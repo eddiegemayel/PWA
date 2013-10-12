@@ -10,27 +10,37 @@ var player2 = {name : "Batman", damage : 20, health : 100};
 
 var players = [player1, player2];
 
-console.log(players);
+
 
 //round start
-var round = 0;
+var round = 1;
+
+var button = document.querySelector(".buttonblue");
+
+button.addEventListener("click", fight);
+
+
 
 function fight(){
-	alert(player1["name"] +" : "+ player1["health"] +"  START  "+ player2["name"] +" : "+player2["health"]);
+
+	var roundUpdate = document.querySelector("input");
 	
-	function myFunction(){
-		document.getElementById("fight_btn").innerHTML = player1["name"] +" : "+ player1["health"] +"  START  "+ player2["name"] +" : "+player2["health"];
-	}
-	for(i=0; i<10; i++){
+	var spiderHealth = document.querySelector("#kabal");
+	
+	var batHealth = document.querySelector("#kratos");
+
+	roundUpdate.value = "Round " + round +"!!";
+
 		
 		var minDamage1 = player1.damage * .5;
         var minDamage2 = player2.damage * .5;
         var f1 = Math.floor(Math.random()*(player1.damage-minDamage1)+minDamage1);
     	var f2 = Math.floor(Math.random()*(player2.damage-minDamage2)+minDamage2);
-
-            //inflict damage
-            player1.health-=f1;
-            player2.health-=f2;
+    	
+    	
+        //inflict damage
+        player1.health-=f1;
+        player2.health-=f2;
 		
 		var result = winnerCheck();
 		
@@ -39,13 +49,15 @@ function fight(){
 		
 		if(result =="No Winner"){
 			round++;
-			alert(player1.name + " : "+ player1.health +"  ROUND "+ round +" OVER" +"  "+ player2.name + " : " + player2.health);
+			spiderHealth.innerHTML = player1.name + " : " +player1.health;
+			batHealth.innerHTML = player2.health + " : "+  player2.name;
+			
 		}
 		else{
-			alert(result);
-			break;
+			roundUpdate.value = result;
+			//break;
 		}
-	}
+	
 	
 	function winnerCheck(){
 		var result ="No Winner";
@@ -64,6 +76,6 @@ function fight(){
 	
 }
 
-fight();
+
 
 })();
