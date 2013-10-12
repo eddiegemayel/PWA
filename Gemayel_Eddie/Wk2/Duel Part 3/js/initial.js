@@ -8,24 +8,19 @@ var player1 = {name : "Spiderman", damage: 20, health: 100};
 
 var player2 = {name : "Batman", damage : 20, health : 100};
 
+var players = [player1, player2];
+
+console.log(players);
 
 //round start
 var round = 0;
 
-
-
-//Math.floor(Math.random() * (max - min)
-
-//function damage(min, max){
-//	var result = Math.floor(Math.random()) *(max - min) + min;
-//	return result;
-//}
-
-
-
 function fight(){
 	alert(player1["name"] +" : "+ player1["health"] +"  START  "+ player2["name"] +" : "+player2["health"]);
 	
+	function myFunction(){
+		document.getElementById("fight_btn").innerHTML = player1["name"] +" : "+ player1["health"] +"  START  "+ player2["name"] +" : "+player2["health"];
+	}
 	for(i=0; i<10; i++){
 		
 		var minDamage1 = player1.damage * .5;
