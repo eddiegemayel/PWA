@@ -49,8 +49,9 @@ function fight(){
 		
 		if(result =="No Winner"){
 			round++;
-			spiderHealth.innerHTML = player1.name + " : " +player1.health;
-			batHealth.innerHTML = player2.health + " : "+  player2.name;
+			
+			spiderHealth.innerHTML = player1.name + " : " + player1.health;
+			batHealth.innerHTML = player2.health + " : " +  player2.name;
 			
 		}
 		else{
